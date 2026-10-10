@@ -324,7 +324,7 @@ jobs:
           MX_APIKEY: ${{ secrets.MX_APIKEY }}
           MX_PRIORITY: ${{ vars.MX_PRIORITY || secrets.MX_PRIORITY }}
 
-          NEWS_INTEL_AUTO_FETCH_ENABLED: "true"
+          # NEWS_INTEL_AUTO_FETCH_ENABLED: "true"
           
           # ==========================================
           # 通知渠道（可同时配置多个，全部推送）
